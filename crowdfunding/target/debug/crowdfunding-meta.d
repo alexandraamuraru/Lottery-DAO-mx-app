@@ -1,1 +1,0 @@
-/home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/target/debug/crowdfunding-meta: /home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/meta/src/main.rs /home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/src/crowdfunding.rs
