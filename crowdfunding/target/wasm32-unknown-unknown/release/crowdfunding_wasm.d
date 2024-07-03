@@ -1,0 +1,1 @@
+/home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/target/wasm32-unknown-unknown/release/crowdfunding_wasm.wasm: /home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/src/crowdfunding.rs /home/alexandra/Proiecte/Licenta/SmartContracts/crowdfunding/wasm/src/lib.rs
