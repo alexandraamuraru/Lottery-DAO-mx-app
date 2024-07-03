@@ -1,0 +1,53 @@
+/* Global styles and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #5c0a2b; /* Darker Burgundy */
+  --secondary-color: #f2d1d1; /* Lighter Pink */
+  --accent-color: #333; /* Dark Gray */
+  --background-color: #f7e8e8; /* Very Light Pink */
+  --background-color2: #faf0f0;
+  --border-color: #ccc; /* Slightly Darker Border */
+  --text-color: #333; /* Dark Gray */
+  --title-color: #fff; /* White */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Light Shadow */
+  --button-hover-color: #4b0722; /* Darker Burgundy for hover */
+  --button-active-color: #330515; /* Even darker Burgundy for active state */
+}
+
+body, html, #root {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.App, .home {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: var(--title-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
+
+button:active {
+  background-color: var(--button-active-color);
+}

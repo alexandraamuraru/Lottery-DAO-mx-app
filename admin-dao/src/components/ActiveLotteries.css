@@ -1,0 +1,18 @@
+/* ActiveLotteries.css */
+.active-lotteries {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .active-lotteries ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .active-lotteries li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

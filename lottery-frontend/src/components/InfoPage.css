@@ -1,0 +1,70 @@
+/* Info Page Specific Styles */
+body, .info-page {
+  height: 100%;
+  overflow: auto;
+}
+
+.info-page-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--title-color);
+  background-color: var(--primary-color);
+  padding: 15px 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  position: relative;
+  z-index: 10;
+}
+
+.info-section {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.info-section h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.info-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-section ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.token-holders ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px var(--shadow-color);
+}
+
+.paragraph {
+  margin: 75px 250px 20px 250px;
+}
+
+@media (max-width: 768px) {
+  .paragraph {
+    margin: 20px;
+  }
+}

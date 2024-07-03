@@ -1,0 +1,108 @@
+/* Member Dashboard Specific Styles */
+.member-dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.member-dashboard input, .member-dashboard select {
+  display: block;
+  width: calc(100% - 20px); /* Adjust width to fit within the container */
+  padding: 10px;
+  margin: 10px auto; /* Center the input */
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.member-dashboard button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.member-dashboard button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.member-dashboard button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.member-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.member-action {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--background-color2);
+  text-align: left;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+.member-action h2 {
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.member-dashboard select:hover, .member-dashboard input:focus, .member-dashboard select:focus {
+  border-color: #007bff; /* Highlights the field when focused */
+  outline: none; /* Removes the default focus outline */
+}
+
+/* Custom dropdown styling */
+.member-dashboard select {
+  display: block;
+  width: calc(100% - 20px); /* Matches the input width */
+  padding: 10px;
+  margin: 10px auto; /* Center the dropdown */
+  font-size: 16px;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  color: var(--text-color);
+  cursor: pointer;
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px 12px;
+}
+
+.member-dashboard select:hover {
+  border-color: var(--button-hover-color); /* Change border color on hover */
+}
+
+.member-dashboard select:focus {
+  border-color: var(--button-hover-color); /* Change border color on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.member-dashboard select:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* Custom dropdown options styling */
+.member-dashboard select option {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}

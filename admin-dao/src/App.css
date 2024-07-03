@@ -1,0 +1,53 @@
+/* Global styles and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #003366; /* Dark Navy Blue */
+  --secondary-color: #cce6ff; /* Lighter Blue */
+  --accent-color: #333; /* Dark Gray */
+  --background-color: #e6f2ff; /* Very Light Blue */
+  --background-color2: #f0f7ff;
+  --border-color: #99ccff; /* Slightly Darker Border */
+  --text-color: #333; /* Dark Gray */
+  --title-color: #fff; /* White */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Light Shadow */
+  --button-hover-color: #00264d; /* Darker Navy Blue for hover */
+  --button-active-color: #001a33; /* Even darker Navy Blue for active state */
+}
+
+body, html, #root {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.App, .home {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: var(--title-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
+
+button:active {
+  background-color: var(--button-active-color);
+}

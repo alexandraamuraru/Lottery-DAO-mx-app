@@ -1,0 +1,18 @@
+/* EndedLotteries.css */
+.ended-lotteries {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .ended-lotteries ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ended-lotteries li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

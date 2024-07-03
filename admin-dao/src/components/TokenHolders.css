@@ -1,0 +1,55 @@
+/* TokenHolders.css */
+
+.token-holders {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .token-holders h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .token-holders p {
+    text-align: center;
+    color: #666;
+  }
+  
+  .token-holders ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .token-holders li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .token-holders li div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .token-holders li div span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .token-holders li div span.address {
+    font-weight: bold;
+    color: #333;
+    word-break: break-all;
+  }
+  
+  .token-holders li div span.balance {
+    color: #333;
+  }
+  
